@@ -1,0 +1,1 @@
+[{"type":"var_assignment","varname":"a","value":1},{"type":"var_assignment","varname":"b","value":2},{"type":"while_loop","condition":{"type":"binary_expression","left":"a","operator":"<","right":"b"},"body":[{"type":"print_statement","expression":"a"},{"type":"var_assignment","varname":"a","value":{"type":"binary_expression","left":"a","operator":"+","right":1}}]}]
