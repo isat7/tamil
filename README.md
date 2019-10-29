@@ -8,7 +8,7 @@ tamil is a  programing language that compiles to javascript,currently handled by
 ### Install from npm
 
 ```
-npm install tamil --save
+npm install tamizh --save
 ```
 
 ### Currently Added Features 
@@ -50,10 +50,11 @@ node run.js program1.tamil
 
 - variable re declaration
 - ast slightly changed
+- space and new line matching
 
 
 ### We are Not Responsible for if any damage causes(dont Download without knowledge)
-### it is still in development mode and we are proud to maintain the worlds worldest language
+### it is still in development mode and we are proud to maintain the worlds oldest language
 ## Licensing
 
 - License Agreement: MIT

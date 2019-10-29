@@ -1,6 +1,6 @@
 {
   "name": "tamizh",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "tamizh is a  programing language that compiles to javascript",
   "main": "example1.js",
   "dependencies": {
