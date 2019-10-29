@@ -14,20 +14,21 @@ const lines=[];
 
 for(let statement of statements){
     console.log(statement);
+    
+    const value=generateJSFORExpression(statement.value,declaredVariable)
 console.log(declaredVariable);
     if(statement.type==="var_assignment"){
          console.log(declaredVariable.indexOf(statement.varname==-1));
-        if(declaredVariable.indexOf(statement.varname==-1)){
-            // declaredVariable.push('let '+statement.varname+"="+statement.value);
+        if(declaredVariable.indexOf(statement.varname)===-1){
+            lines.push('let '+statement.varname+"="+value);
             declaredVariable.push(statement.varname);
             console.log("isat->debug=>variable declaration");
           
         }else{
             console.log("isat->debug=>already variable declared");
-            declaredVariable.push('let '+statement.varname+'='+statement.value);
+            lines.push(statement.varname+'='+value);
                   }
-        const value=generateJSFORExpression(statement.value,declaredVariable)
-      lines.push('let '+statement.varname+"="+value);
+    //   lines.push('let '+statement.varname+"="+value);
      
     }
     else if(statement.type==="print_statement"){

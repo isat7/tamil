@@ -46,6 +46,10 @@ node generate.js program1.ast
 ``` 
 node run.js program1.tamil
 ```
+## Bug fixes
+
+- variable re declaration
+- ast slightly changed
 
 
 ### We are Not Responsible for if any damage causes(dont Download without knowledge)

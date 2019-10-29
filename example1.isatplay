@@ -1,0 +1,7 @@
+sb:=8
+b:=0
+while b<sb [
+    b:=4
+    print b
+b:=b+1
+]

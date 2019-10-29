@@ -1,7 +1,7 @@
 {
-  "name": "tamil",
-  "version": "0.0.1",
-  "description": "iSatPl is a simple programing language that compiles to javascript and inspired by roy and zoho delug language",
+  "name": "tamizh",
+  "version": "0.0.2",
+  "description": "tamizh is a  programing language that compiles to javascript",
   "main": "example1.js",
   "dependencies": {
     "jison": "^0.4.18",
@@ -11,9 +11,17 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "gen":"nearleyc  mypl.grammer -o tamil.js"
+    "gen": "nearleyc  mypl.grammer -o tamil.js"
   },
   "keywords": [],
   "author": "Balaji",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isat7/tamil.git"
+  },
+  "bugs": {
+    "url": "https://github.com/isat7/tamil/issues"
+  },
+  "homepage": "https://github.com/isat7/tamil#readme"
 }

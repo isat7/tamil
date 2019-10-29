@@ -7,8 +7,11 @@ async function main(){
 
     await exec('node parse.js '+filename);
     await exec('node generate.js '+astfilename);
+    // const [output]=exec('node '+jsFilename, {smaxBuffer: 1024 * 500});
+
     const [output]=await exec('node '+jsFilename);
     process.stdout.write(output.toString());
+   
 
 }
 
